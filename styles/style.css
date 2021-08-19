@@ -26,6 +26,7 @@ body{
     height: 350px;
     margin: 20px;
     display: flex;
+    transition: 0.5s;
     justify-content: flex-start;
     align-items: center;
     background: linear-gradient(45deg, #1a2f3f, #7094ce);
@@ -80,4 +81,45 @@ body{
     margin-top: 10px;
     text-decoration: none;
     font-weight: 700;
+}
+
+@media (max-width: 991px){
+    .container .card{
+        width: auto;
+        max-width: 600px;
+        align-items: flex-start;
+    }
+    .container .card:hover{
+        height: 600px;
+    }
+    .container .card:hover img{
+        left: 50%;
+        height: 350px;
+    }
+    .container .card .content{
+        width: 100%;
+        left: 0;
+        padding: 40px;
+    }
+}
+
+@media (max-width: 767px){
+    .container{
+        flex-direction: column;
+    }
+    .container .card{
+        width: auto;
+        max-width: 600px;
+        margin: 40px 20px;
+    }
+}
+
+@media (max-width: 420px){
+    .container .card .content{
+      
+        padding: 30px;
+    }
+    .container .card:hover img{
+        height: 300px;
+    }
 }
