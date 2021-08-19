@@ -39,3 +39,8 @@ body{
     height: 400px;
     transition: 0.5s;
 }
+
+.container .card:hover img {
+    left: 75%;
+    height: 500px;
+} 
