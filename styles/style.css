@@ -59,3 +59,18 @@ body{
     font-size: 2.2em;
     line-height: 1em;
 }
+
+.container .card .content p {
+    color: #fff;
+}
+
+.container .card .content a{
+    position: relative;
+    color: #111;
+    background: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
