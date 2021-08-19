@@ -19,3 +19,14 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.container .card{
+    position: relative;
+    width: 600px;
+    height: 350px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(45deg, #1a2f3f, #7094ce);
+}
