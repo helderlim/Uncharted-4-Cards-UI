@@ -12,3 +12,10 @@ body{
     align-items: center;
     min-height: 100vh;
 }
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
